@@ -1,9 +1,8 @@
 # 导航栏
 menu:                      # 导航栏上的链接
   Home: /
-  Archives: /archives
-  About: /about
-rss: /atom.xml
+  归档: /archives
+  关于: /about
 
 home:
   style: default           # default, detail

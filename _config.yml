@@ -1,11 +1,11 @@
-title: Hexo
+title: Ap0stader's blog
 subtitle: ''
 description: ''
 keywords: null
-author: John Doe
-language: en
-timezone: ''
-url: http://example.com
+author: Ap0stader
+language: zh-CN
+timezone: 'Asia/Shanghai'
+url: http://ap0stader.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -28,7 +28,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -60,6 +60,8 @@ exclude: null
 ignore: null
 theme: vivia
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/ap0stader/ap0stader.github.io
+  branch: main
 archive_generator:
   per_page: 0
